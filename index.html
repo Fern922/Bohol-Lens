@@ -121,9 +121,9 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            border: 2px solid #000;
+            border: 2px solid #3B82F6;
             border-radius: 9999px;
-            background-color: rgba(0, 0, 0, 1);
+            background-color: #3B82F6;
             padding: 0.625rem 1.5rem;
             text-align: center;
             color: rgba(255, 255, 255, 1);
@@ -134,7 +134,7 @@
 
         .playstore-button:hover {
             background-color: transparent;
-            color: rgba(0, 0, 0, 1);
+            color: #3B82F6;
         }
 
         .icon {
@@ -565,10 +565,18 @@
                                 <h1 className="hero-title text-4xl md:text-6xl font-bold text-gray-800 mb-6">
                                     Bohol Lens: <span className="text-blue-500">Reminiscing the Past, Seeing the Culture</span>
                                 </h1>
-                                <p className="hero-subtitle text-xl md:text-2xl text-gray-600 mb-10">
+                                <p className="hero-subtitle text-xl md:text-2xl text-gray-600 mb-6">
                                     An Immersive Boholano Augmented Reality Experience
-
                                 </p>
+                                <a class="playstore-button mx-auto mb-10" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+                                        <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+                                    </svg>
+                                    <span class="texts">
+                                        <span class="text-1">GET IT ON</span>
+                                        <span class="text-2">Google Play</span>
+                                    </span>
+                                </a>
                                 <div className="flex flex-wrap justify-center gap-4 hero-button">
                                     <button 
                                         onClick={() => scrollToSection('about')}
@@ -929,15 +937,6 @@
                                     </a>
                                     <a href="#" className="text-gray-500 hover:text-gray-200 transition-colors">
                                         <i className="fab fa-github"></i>
-                                    </a>
-                                    <a class="playstore-button" href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
-                                            <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
-                                        </svg>
-                                        <span class="texts">
-                                            <span class="text-1">GET IT ON</span>
-                                            <span class="text-2">Google Play</span>
-                                        </span>
                                     </a>
                                 </div>
                             </div>
